@@ -15,6 +15,7 @@
 		FD437AF81E06E8C200F32F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD437AF61E06E8C200F32F9B /* LaunchScreen.storyboard */; };
 		FD437B031E06E8C200F32F9B /* classmate_finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD437B021E06E8C200F32F9B /* classmate_finalTests.swift */; };
 		FD437B0E1E06E8C200F32F9B /* classmate_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD437B0D1E06E8C200F32F9B /* classmate_finalUITests.swift */; };
+		FD437B1C1E06EECB00F32F9B /* recorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD437B1B1E06EECB00F32F9B /* recorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD437B091E06E8C200F32F9B /* classmate finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "classmate finalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD437B0D1E06E8C200F32F9B /* classmate_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classmate_finalUITests.swift; sourceTree = "<group>"; };
 		FD437B0F1E06E8C200F32F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD437B1B1E06EECB00F32F9B /* recorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FD437AED1E06E8C200F32F9B /* FirstViewController.swift */,
 				FD437AEF1E06E8C200F32F9B /* SecondViewController.swift */,
 				FD437AF11E06E8C200F32F9B /* Main.storyboard */,
+				FD437B1B1E06EECB00F32F9B /* recorderViewController.swift */,
 				FD437AF41E06E8C200F32F9B /* Assets.xcassets */,
 				FD437AF61E06E8C200F32F9B /* LaunchScreen.storyboard */,
 				FD437AF91E06E8C200F32F9B /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD437B1C1E06EECB00F32F9B /* recorderViewController.swift in Sources */,
 				FD437AF01E06E8C200F32F9B /* SecondViewController.swift in Sources */,
 				FD437AEC1E06E8C200F32F9B /* AppDelegate.swift in Sources */,
 				FD437AEE1E06E8C200F32F9B /* FirstViewController.swift in Sources */,
@@ -509,6 +513,7 @@
 				FD437B141E06E8C200F32F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD437B151E06E8C200F32F9B /* Build configuration list for PBXNativeTarget "classmate finalTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				FD437B171E06E8C200F32F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD437B181E06E8C200F32F9B /* Build configuration list for PBXNativeTarget "classmate finalUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				FD437B1A1E06E8C200F32F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,8 +1,8 @@
 //
-//  classmate_finalUITests.swift
-//  classmate finalUITests
+//  classmateUITests.swift
+//  classmateUITests
 //
-//  Created by Jalaj Kothari on 12/18/16.
+//  Created by Sushanth on 12/01/16.
 //  Copyright © 2016 Sushanth. All rights reserved.
 //
 
